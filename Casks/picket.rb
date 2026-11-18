@@ -1,8 +1,8 @@
 # Template for the cask in the owner's tap; the release workflow fills in the version
 # and checksum. Install with: brew install --cask rohitmekkoth/tap/picket
 cask "picket" do
-  version "1.0.0"
-  sha256 "1bd1d897692a058cbfc3487291b533c8ced6cf31a0ebcbb368eeb9a54124eab7"
+  version "1.0.1"
+  sha256 "fc8d6aeeaa5b43ffbf549b0bfd64cb4cc1d830cc1fe4d3f901dac89c604928dc"
 
   url "https://github.com/rohitmekkoth/picket/releases/download/v#{version}/Picket_#{version}_aarch64.dmg"
   name "Picket"
